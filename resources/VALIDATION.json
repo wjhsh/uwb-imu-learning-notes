@@ -1,0 +1,13 @@
+{
+  "checked": "2026-11-11",
+  "directions": 6,
+  "paper_notes": 13,
+  "external_repositories": 17,
+  "classic_source_files": 18,
+  "external_repository_check": "public_metadata_README_and_selected_Git_tree_paths",
+  "external_implementations_executed": false,
+  "six_prior_full_paper_notes": true,
+  "basic_demo_selfcheck": "PASS",
+  "third_party_full_code_or_PDF_redistributed": false,
+  "unpublished_models_data_results_included": false
+}

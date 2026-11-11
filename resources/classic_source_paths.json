@@ -1,0 +1,115 @@
+[
+  {
+    "repo": "AtsushiSakai/PythonRobotics",
+    "branch": "master",
+    "license": "NOASSERTION",
+    "tree_sha": "ef64608ceb0012f2a0b3d532fddc80243e807cfa",
+    "paths": [
+      "Localization/extended_kalman_filter/extended_kalman_filter.py",
+      "Localization/particle_filter/particle_filter.py",
+      "Localization/unscented_kalman_filter/unscented_kalman_filter.py"
+    ]
+  },
+  {
+    "repo": "rlabbe/filterpy",
+    "branch": "master",
+    "license": "MIT",
+    "tree_sha": "5df4e095fac07684a05c495bd72d3424f7c68c9c",
+    "paths": [
+      "filterpy/kalman/EKF.py",
+      "filterpy/kalman/IMM.py",
+      "filterpy/kalman/UKF.py"
+    ]
+  },
+  {
+    "repo": "borglab/gtsam",
+    "branch": "develop",
+    "license": "NOASSERTION",
+    "tree_sha": "8806b336af5adefdb0cb6f3859ff074acb07096f",
+    "paths": [
+      "examples/CombinedImuFactorsExample.cpp",
+      "examples/Data/KittiEquivBiasedImu.txt",
+      "examples/Data/KittiEquivBiasedImu_metadata.txt",
+      "examples/ImuFactorsExample.cpp",
+      "examples/ImuFactorsExample2.cpp",
+      "examples/NavStateImuExample.cpp",
+      "gtsam/3rdparty/Eigen/unsupported/Eigen/src/Splines/Spline.h",
+      "gtsam/3rdparty/Eigen/unsupported/Eigen/src/Splines/SplineFitting.h",
+      "gtsam/3rdparty/Eigen/unsupported/Eigen/src/Splines/SplineFwd.h",
+      "gtsam/linear/NoiseModel.cpp",
+      "gtsam/linear/NoiseModel.h",
+      "python/gtsam/examples/CombinedImuFactorExample.py",
+      "python/gtsam/examples/ImuFactorExample.py",
+      "python/gtsam/examples/ImuFactorISAM2Example.py",
+      "python/gtsam/examples/ImuFactorWithGravityExample.py",
+      "python/gtsam/examples/navigation/Gal3ImuASVExample.ipynb",
+      "python/gtsam/examples/navigation/Gal3ImuExample.ipynb",
+      "python/gtsam/examples/navigation/Gal3ImuNEESReset.ipynb",
+      "python/gtsam/examples/navigation/NavStateImuASVExample.ipynb",
+      "python/gtsam/examples/navigation/NavStateImuExample.ipynb",
+      "python/gtsam/examples/navigation/NavStateImuPimCovarianceComparison.ipynb"
+    ]
+  },
+  {
+    "repo": "gavngao/imu_x_fusion",
+    "branch": "master",
+    "license": "GPL-3.0",
+    "tree_sha": "6b52e7c8b4c52c586f56d519e998557f66e8a2c2",
+    "paths": [
+      "include/sensor/imu.hpp",
+      "src/imu_gnss_ekf.cpp",
+      "src/imu_vo_ekf.cpp"
+    ]
+  },
+  {
+    "repo": "ewine-project/UWB-localization",
+    "branch": "master",
+    "license": null,
+    "tree_sha": "836e81af518c9b779f220becbb59fb2f5fa8069f",
+    "paths": [
+      "NLOSClassificationModel/build_classification_model.py",
+      "RangingErrorModel/build_regression_model.py"
+    ]
+  },
+  {
+    "repo": "KlemenBr/uwb_positioning",
+    "branch": "main",
+    "license": "Apache-2.0",
+    "tree_sha": "a39472cf5bf828dce0ee1a403438744ea76cd1a8",
+    "paths": [
+      "technical_validation/positioning.py",
+      "technical_validation/train_ranging_error.py"
+    ]
+  },
+  {
+    "repo": "KIT-ISAS/SFUISE",
+    "branch": "main",
+    "license": "GPL-3.0",
+    "tree_sha": "75bf5a32f1a8e5c3046a5bd1a1ddf659fa996f7d",
+    "paths": [
+      "sfuise/src/SplineFusion.cpp"
+    ]
+  },
+  {
+    "repo": "CathIAS/TLIO",
+    "branch": "master",
+    "license": "NOASSERTION",
+    "tree_sha": "d7051c4ff14834b93931984b75b40f894e39654d",
+    "paths": [
+      "src/batch_runner/filter_batch.py",
+      "src/doc/Readme_Filter_Evaluation_pipline.md",
+      "src/main_filter.py",
+      "src/plot_filter_state.py",
+      "src/tracker/scekf.py"
+    ]
+  },
+  {
+    "repo": "wmkouw/bayes-filters",
+    "branch": "master",
+    "license": "MIT",
+    "tree_sha": "1d9002fe9e33154948e5121ccddd0ca3647cf7cc",
+    "paths": [
+      "kalman_filters.jl"
+    ]
+  }
+]
