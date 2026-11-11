@@ -85,7 +85,7 @@
 ## 9. TLIO: Tight Learned Inertial Odometry
 
 - **作者/年份/出处：** Liu W. 等；2020；*IEEE Robotics and Automation Letters* 5(4), 5653–5660。
-- **链接：** <https://doi.org/10.1109/LRA.2020.3007421>；项目页: <https://cathias.github.io/TLIO/>；[作者GitHub](https://github.com/CathIAS/TLIO)
+- **链接：** <https://doi.org/10.1109/LRA.2020.3007421>；项目页: <https://cathias.github.io/TLIO/>；[作者GitHub](https://github.com/CathIAS/TLIO)；[作者GitHub](https://github.com/CathIAS/TLIO)
 - **问题：** 传统惯性里程计会漂移，希望网络从 IMU 序列学习运动增量并提供可用不确定性。
 - **核心方法：** 用学习模型从 IMU 序列回归短窗相对位移及其不确定性，并用滤波框架约束长期轨迹。
 - **实用启发：** 可把学习式惯性模块视为相对运动来源；融合前要检查输出不确定性和坐标系约定。
