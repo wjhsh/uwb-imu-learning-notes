@@ -1,0 +1,12 @@
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+demo_output/
+_demo_run/
+*.egg-info/
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+WORK_STARTED.txt

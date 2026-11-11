@@ -1,0 +1,13 @@
+{
+  ".gitignore": "436a4f0cf4faec94a890cfd2ee74b339a923893465a5002e9afd3375df2063dc",
+  "LICENSE": "c94bbc89074cfb86a1b03517aca167f144ce60a5748b8484c5db2fa990c29b4d",
+  "OPEN_SOURCE_SCOPE.md": "03c1ecbb76dae7e61139d09646156ee17fe1a2dd8dc19ff347a9d9ebbbeb6cd0",
+  "README.md": "1c47fb0d2eb97ece2d785f406478de32dd22134c9ec75c222553e6df48b90948",
+  "demo_uwb_imu_ekf.py": "2d8128c556cc204061526d07c78ee44dd1cd24392b056e089368de7fc46509e0",
+  "examples/summary.json": "27e4a01be72606a1a58386112ed1837b83e595bfda208c7103aae15cdf544e78",
+  "examples/synthetic_demo.png": "c310d42e396efd69b02ec6863379d82bcd32fd0ac3f192b520217f52fdabe40c",
+  "experiment_log_template.md": "0bdc42e3ffede156c8f6bc64511e2f114b96b87e012ce93393fb4c806d0d119e",
+  "math_notes.md": "a67a6fe4f554822e28e1ab4b2c09a950e20a2c2c044435f7d73fbd21ada5b0d5",
+  "reading_template.md": "7fc0d419cb90f0cc200830e47d7344b4881f177ce2c25a85f668c686776c7c8c",
+  "requirements.txt": "bb1c14262d5925bea2f3a6966f31d967aac09594c06263bfa11e7a632bf87dd9"
+}

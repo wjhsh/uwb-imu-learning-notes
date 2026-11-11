@@ -1,0 +1,78 @@
+{
+  "label": "SYNTHETIC_TEACHING_ONLY",
+  "synthetic": true,
+  "purpose": "Educational planar EKF example; not a production or research implementation.",
+  "seed": 20261111,
+  "duration_s": 60.0,
+  "dt_s": 0.1,
+  "range_period_s": 0.5,
+  "motion": "smooth synthetic circular path",
+  "state": [
+    "px_m",
+    "py_m",
+    "vx_mps",
+    "vy_mps"
+  ],
+  "anchors_m": [
+    [
+      -12.0,
+      -9.0
+    ],
+    [
+      13.0,
+      -8.0
+    ],
+    [
+      12.0,
+      12.0
+    ],
+    [
+      -11.0,
+      13.0
+    ]
+  ],
+  "sensor_noise_std": {
+    "body_acceleration_mps2": 0.1,
+    "yaw_rad": 0.02,
+    "uwb_range_m": 0.18,
+    "discrete_process_acceleration_mps2": 0.12
+  },
+  "range_update_epochs": 120,
+  "scalar_range_measurements": 480,
+  "initial_state": {
+    "value": [
+      8.18,
+      -0.12,
+      0.02,
+      0.85
+    ],
+    "assumption": "fixed nominal pose plus small perturbation, independent of noisy ranges; educational known-start only"
+  },
+  "assumptions": [
+    "externally supplied yaw measurement",
+    "2D gravity already removed",
+    "UWB and IMU clocks are aligned",
+    "zero-mean Gaussian noise only",
+    "not a full INS or attitude estimator"
+  ],
+  "metrics": {
+    "ekf_rmse_m": 0.11901552988676044,
+    "ekf_final_error_m": 0.044780544523667275,
+    "ekf_max_error_m": 0.2586703348164231,
+    "dead_reckoning_rmse_m": 2.8244805175189733,
+    "dead_reckoning_final_error_m": 5.148887960301558
+  },
+  "outputs": {
+    "plot": "synthetic_demo.png",
+    "states_csv": "synthetic_states.csv",
+    "summary_json": "summary.json"
+  },
+  "not_for": [
+    "real data or CIR processing",
+    "NLOS or multipath robustness claims",
+    "learned or heavy-tailed measurement models",
+    "adaptive risk, IMM, or production calibration",
+    "safety-critical navigation",
+    "comparison with any external research system"
+  ]
+}
